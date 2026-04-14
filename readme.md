@@ -29,6 +29,9 @@ The application allows users to add people, record expenses, and split the total
 ## Project Level
 Beginner
 
+## Screenshort
+![App Screenshot](screenshots/ExpenseSplitter.png)
+
 ## Note on Logo Usage
 The logo used in this project is my personal brand identity.  
 It is included only for demonstration purposes and should not be reused, redistributed, or used in other projects without permission.
