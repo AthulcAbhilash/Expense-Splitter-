@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Splitter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Logo.png">
+</head>
+<body>
+<div class="app">
+    <div class="left">
+        <div class="header">
+            <img src="logo.png" class="logo">
+            <h2>Expense Splitter</h2>
+        </div>
+        <h3>Add People</h3>
+        <input type="text" id="personName" placeholder="Enter name">
+        <button onclick="addPerson()">Add Person</button>
+        <div id="people"></div>
+        <hr>
+        <h3>Add Expense</h3>
+        <input type="number" id="expenseAmount" placeholder="Amount">
+        <select id="paidBy"></select>
+        <button onclick="addExpense()">Add Expense</button>
+        <button onclick="calculateSplit()">Split</button>
+    </div>
+    <div class="right">
+        <h3>Expenses Summary</h3>
+        <div id="summary"></div>
+        <h3>Settlement</h3>
+        <div id="result"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
